@@ -4,14 +4,32 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>Welcome</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <LINK href="trail3.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+  
+<div id="overlay">
+        <div id="f" class="d-sm-none d-lg-block">
+            <label> Enter your name: </label>
+            <input oninput="enter()" type="text" id="c" placeholder="Name" value="Vijay Mehta"><br><br>
+            <label> Enter the password: </label>
+            <input type="password" id="d" placeholder="Password" value="controlRoom.alert">
+            <button id="e" onclick="typechange()"> Show </button><br><br>
+            <button id="closebtn" onclick="closeNav()"><b>Submit</b></button>
+            <p id="v"></p>
+        </div>
+    </div>
 
-<p>
-  Sean made a change
-</p>
-
+    <div id="overlay1">
+        <div id="w">
+            <div id="x">
+                <input id="a" type="text">
+            </div>
+            <input onclick="my()" id="b" type="submit" value="Submit">
+            <p id="z" onclick="back()"> Back </p>
+        </div>
+    </div>
+  
 </body>
 </html>
