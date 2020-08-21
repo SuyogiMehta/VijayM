@@ -1,0 +1,113 @@
+#a {
+    height: 20px;
+    font-size: 18px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    align-self: center;
+    border-radius: 50px;
+}
+
+#w {
+    opacity: 0;
+    transition: linear 0.5s;
+}
+
+#x {
+    text-align: center;
+}
+
+#b {
+    margin: auto;
+    margin-left: 48%;
+    margin-top: 100px;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(100, 0, 0);
+    overflow-x: hidden;
+    /* transition: linear 1s; */
+    margin: auto;
+}
+
+#closebtn {
+    position: relative;
+    background-color: yellow;
+    font-size: 20px;
+    border-color: transparent;
+    text-align: center;
+    margin: auto;
+    color: red;
+    height: 45px;
+    width: 150px;
+    border: 5px solid blue;
+}
+
+label {
+    color: yellow;
+    font-size: 25px;
+}
+
+#c {
+    height: 30px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+}
+
+#d {
+    height: 30px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+}
+
+#e {
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    margin: auto;
+    font-size: 15px;
+    position: relative;
+    left: -6px;
+    top: -1px;
+}
+
+#f {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 15%;
+    /* transition: linear 0.5s; */
+}
+
+#overlay1 {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(100, 0, 0);
+    overflow-x: hidden;
+    transition: linear 1s;
+    margin: auto;
+}
+
+#z {
+    opacity: 1;
+    color: yellow;
+}
+
+#v {
+    color: transparent;
+}
